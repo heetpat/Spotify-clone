@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <nav id="logo">
+                <ul>
+                    <li><img src="static/logo.svg" alt="404"></li>
+                    <li><img src="static/home.svg" alt="404"></li>
+                </ul>
+            </nav>
+            <div id="search">
+                <div id="searchbar">
+                    <img src="static/search.svg" alt="404">
+                    <input type="text" placeholder="What do you want to play?">
+                    <img src="static/browse.svg" alt="404">
+                </div>
+            </div>
+            <div class="end">
+                <nav id="menu1">
+                    <ul>
+                        <li>Premium</li>
+                        <li>Support</li>
+                        <li>Download</li>
+                    </ul>
+                </nav>
+                <nav id="menu2">
+                    <ul>
+                        <li><img src="static/install.svg" alt="404">&nbsp;Install App</li>
+                        <li>Sign Up</li>
+                        <li id="login">Log in</li>
+                        <li class="hamburger2"><img src="static/hamburg2.svg" alt="404"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- <hr> -->
+    <section id="main">
+        <section id="left">
+            <div class="head">
+                <div class="cross"><img src="static/cross.svg" alt="404"></div>
+                <h1>Your Library</h1>
+            </div>
+            <div class="library">
+                <ul>
+                    <!-- <li><img src="static/song.svg" alt="404">
+                    <div class="cardinfo"><div>Songname</div><div id="artist">SongArtist</div></div>
+                    <img src="static/play.svg" alt="404"></li>  -->
+
+                </ul>
+            </div>
+            <div class="foot">
+                <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety &amp; Privacy Center</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+                <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">Cookies</a>
+                </div>
+            </div>
+        </section>
+        <section id="right">
+            <div class="head">
+                <div class="hamburger1"><img src="static/hamburg1.svg" alt="404"></div>
+                <h1>Trending Songs</h1>
+            </div>
+            <div class="cardlist">
+                <div class="card">
+                    <div class="play"><img src="static/play.svg" alt="404">
+                    </div>
+                    <img src="static/img/cardimg1.jpeg" alt="404">
+                    <div class="titlecard">
+                        <span>Oorum Blood - From "Dude"</span>
+                        <span class="artist">Sai Abhyankkar,Paal Dabba, bebhumika,Deepthi Suresh</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="play">
+                        <img src="static/play.svg" alt="404">
+                    </div>
+                    <img src="static/img/cardimg2.jpeg" alt="404">
+                    <div class="titlecard">
+                        <span>Arz Kiya Hai | Coke Studio Bharat</span>
+                        <span class="artist">Anuv Jain</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="play"><img src="static/play.svg" alt="404"></div><img src="static/img/cardimg3.jpeg"
+                        alt="404">
+                    <div class="titlecard"><span class="">Powerhouse x
+                            Disco</span><span class=artist>Anirudh
+                                Ravichander</span>
+                    </div>
+                </div>
+                <!-- <div class="card"><div class="play"><img src="static/play.svg" alt="404"></div><img src="static/img/cardimg4.jpeg" alt="404"><span class="">For A Reason</span><span
+                        class="artist"><a href="/artist/6DARBhWbfcS9E4yJzcliqQ">Karan Aujla</a>, <a
+                            href="/artist/3nqS8jzqmsPKFJTp0BOIel">Ikky</a></span></div>
+                <div class="card"><div class="play"><img src="static/play.svg" alt="404"></div><img src="static/img/cardimg5.jpeg" alt="404"><span class="">Bijuria (From "Sunny
+                        Sanskari Ki Tulsi Kumari")</span><span class="artist"><a
+                            href="/artist/4f7KfxeHq9BiylGmyXepGt">Tanishk Bagchi</a>, <a
+                            href="/artist/1dVygo6tRFXC8CSWURQJq2">Sonu Nigam</a>, <a
+                            href="/artist/1RZXnoF42isxhijfdRFh75">Ravi Pawar</a>, <a
+                            href="/artist/1sVmXkzX2ukc6QvasrDBES">Asees Kaur</a></span></div>-->
+            </div>
+            <div id="playbar">
+                <div class="seekbar"></div>
+                <div class="circle"></div>
+                <div class="songinfo">info</div>
+                <div class="songbutton">
+                    <img id="prev" src="static/prev.svg" alt="404">
+                    <img id="playbtn" src="static/playbtn.svg" alt="404">
+                    <img id="next" src="static/next.svg" alt="404">
+                </div>
+                <div class="volume"><img src="static/vol.svg" alt="404"><div class="range"><input type="range" name="volume"></div></div>
+                <div class="songtime">00:00 / 00:00</div>
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
